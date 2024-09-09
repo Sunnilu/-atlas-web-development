@@ -1,9 +1,29 @@
-Atlas School Project on HTML and CSS. By Suntha Lucas
-So what is HTML and CSS? Hum, let's see how to make it plain. Hyper Text Markup Language, it's slang name, HTML- gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images, it's so soulful.  While Cascading Style Sheets, better know as CSS, is a presentation language created to give it style, the appearance of content- using, fonts or color, in other words, it dresses it up.
-the two languages- HTML and CSS- are independent of one another and should remain that way. Don't ever, never, never , never, write CSS inside of an HTML document and vice versa. Remember that HTML will always and only represent content, and CSS will always and only represent the appearance of that content.
+Atlas School Project on HTML and CSS. By Suntha Lucas @ Suntha.Lucas@atlasschool.com
+
+So what is HTML and CSS? Hum, let's see how to make it plain. Hyper Text Markup Language, better known as HTML- gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images, it's so soulful.  While Cascading Style Sheets, know as CSS, is a presentation language created to give it style, the appearance of content- using, fonts or color, in other words, it dresses it up.
+
+Understanding Common HTML Terms
+While getting started with HTML, you will likely encounter new —and often strange—terms. But the three common HTML terms you should begin with are elements, tags, and attributes.
+
+Elements
+Elements are designators that define the structure and content of objects within a page. Some of the more frequently used elements include multiple levels of headings (identified as <h1> through <h6> elements) and paragraphs (identified as the <p> element); the list goes on to include the <a>, <div>, <span>, <strong>, and <em> elements, and many more.
+
+Tags
+The use of less-than and greater-than angle brackets surrounding an element creates what is known as a tag. Tags most commonly occur in pairs of opening and closing tags.
+
+An opening tag marks the beginning of an element. It consists of a less-than sign followed by an element’s name, and then ends with a greater-than sign; for example, <div>.
+
+A closing tag marks the end of an element. It consists of a less-than sign followed by a forward slash and the element’s name, and then ends with a greater-than sign; for example, </div>.
+
+The content that falls between the opening and closing tags is the content of that element. An anchor link, for example, will have an opening tag of <a> and a closing tag of </a>. What falls between these two tags will be the content of the anchor link.
+
+Attributes
+Attributes are properties used to provide additional information about an element. The most common attributes include the id attribute, which identifies an element; the class attribute, which classifies an element; the src attribute, which specifies a source for embeddable content; and the href attribute, which provides a hyperlink reference to a linked resource.
+
+Attributes are defined within the opening tag, after an element’s name. Generally attributes include a name and a value. The format for these attributes consists of the attribute name followed by an equals sign and then a quoted attribute value.the two languages- HTML and CSS- are independent of one another and should remain that way. Don't ever, never, never , never, write CSS inside of an HTML document and vice versa. Remember that HTML will always and only represent content, and CSS will always and only represent the appearance of that content.
 
 So why do these two languages exist?
-Because people were tired of opening books!  Not really, but it does have something to do with books, the time it took to check out books, having to read through the entire book before you found the points that you needed or track down the exact piece of information you were after.  Today we can jump over to a search engine, and search away because someone took the time to build a website with your exact search in mind. (I still think people were tire of reading books).
+Because people were tired of opening books!  Not really, but it does have something to do with books, the time it took to check out books, having to read through the entire book before you found the points that you needed or track down the exact piece of information you were after.  Today we can jump over to a search engine, and search away because someone took the time to build a website with your exact search in mind. (I still think people were tired of reading books).
 
 Who is HTML and CSS for?
 You! Anyone that searches the web, you are that YOU. Ever wonder how it is that you type a name, title, or address- and wala, you have entered another world of imagination, training, documents, the skys the limit these days with what you can find on the web.  Some of it can be scary if you wonder to the wrong ones, I'm not even age appropriate to look at some of the things out there and I'm seasoned!
@@ -21,7 +41,7 @@ Well I still don't know what Figma is, other than the name of a website that off
 - Optimized images for web use
 
 
-## Technologies Used
+# Technologies Used
 
 - HTML5
 - CSS3
@@ -30,20 +50,20 @@ Well I still don't know what Figma is, other than the name of a website that off
 - Git/GitHub
 - Figma (our design tool)
 
-### INSTALLATION
+# INSTALLATION
 
 1. Clone the respository: git clone http://github.com/sunnilu/atlas-school.git
 2. Open it! use VSCode
 3. Nothing additional for setup to view HTML files.
 
 
-#### USAGE
+# USAGE
 
 1. Open 'index.html in a modern web browser.
 2. Navigate through the site using the menu and interactive elements.
 3. View source code to exaine HTML structure
 
-##### CONTRIBUTING
+# CONTRIBUTING
 
 Contributions are welcome, BUT please follow these steps:
 
@@ -55,7 +75,8 @@ Contributions are welcome, BUT please follow these steps:
 
 Follow the guidelines,and ensure that all commits are semantic and write detailed commit messages.  Keep pull requests focused on a single feature.
 
-## LicenseThis project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+# License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
 # ACKNOWLEDGEMENTS
