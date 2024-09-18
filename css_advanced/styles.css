@@ -1,0 +1,24 @@
+.menu {
+    width: 234px;          /* Set the width */
+    height: 15px;         /* Set the height */
+    position: absolute;    /* Use absolute positioning if needed */
+    top: 37px;            /* Vertical positioning */
+    left: 1041px;         /* Horizontal positioning */
+    gap: 0;               /* No gap */
+    opacity: 1;           /* Set to 1 for full visibility */
+    background-color: #FFFFFF; /* Set background color to white */
+}
+.logo {
+    width: 167.02px;         /* Set the width */
+    height: 29.46px;        /* Set the height */
+    position: absolute;      /* Absolute positioning */
+    top: 35.02px;           /* Vertical positioning */
+    left: 171.59px;         /* Horizontal positioning */
+    opacity: 1;             /* Set to 1 for visibility */
+    gap: 0;                 /* No gap, not applicable for img */
+}
+/* First Section Styles */
+.first-section {
+    padding: 40px;          /* Adjust padding as needed */
+    background-color: #ffffff; /* Background color for the section */
+}
