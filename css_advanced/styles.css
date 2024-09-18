@@ -22,3 +22,32 @@
     padding: 40px;          /* Adjust padding as needed */
     background-color: #ffffff; /* Background color for the section */
 }
+/* Testimonial Wrapper */
+.testimonial-wrapper { 
+    width: 1440px;               /* Set the width */
+    height: 392px;               /* Set the height */
+    position: absolute;          /* Absolute positioning */
+    top: 1093px;                 /* Vertical positioning */
+    left: -1px;                  /* Horizontal positioning */
+    gap: 0;                      /* No gap */
+    opacity: 1;                  /* Set to 1 for visibility */
+    background-color: #C271FF;   /* Background color */
+    display: flex;               /* Flexbox layout */
+    align-items: center;         /* Center items vertically */
+    justify-content: center;      /* Center items horizontally */
+}
+
+/* Testimonial Section */
+.testimonial {
+    width: 943px;                /* Set the specific width */
+    height: 160px;               /* Set the specific height */
+    opacity: 1;                  /* Set to 1 for visibility */
+    display: flex;               /* Flexbox layout for inner content */
+    align-items: center;         /* Center items vertically */
+    justify-content: center;      /* Center items horizontally */
+    color: #FFFFFF;              /* Set text color to #FFFFFF */
+    text-align: center;          /* Center align text */
+    border-radius: 8px;         /* Optional: Rounded corners */
+    padding: 20px;               /* Optional: Add some padding */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Set a background for contrast */
+}
