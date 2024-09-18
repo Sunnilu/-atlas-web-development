@@ -51,3 +51,32 @@
     padding: 20px;               /* Optional: Add some padding */
     background-color: rgba(0, 0, 0, 0.5); /* Optional: Set a background for contrast */
 }
+
+.videos-list {
+    width: 255px;                /* Set the width */
+    height: 335px;               /* Set the height */
+    position: absolute;          /* Absolute positioning */
+    top: 115px;                  /* Vertical positioning */
+    left: 58px;                  /* Horizontal positioning */
+    gap: 0;                      /* No gap */
+    opacity: 1;                  /* Set to 1 for visibility */
+    display: flex;               /* Flexbox layout */
+    flex-direction: column;      /* Arrange items in a column */
+    align-items: center;         /* Center items horizontally */
+}
+
+.video-item {
+    width: 100%;                 /* Full width of the container */
+    height: auto;                /* Automatic height based on content */
+    display: flex;               /* Flexbox for video item */
+    flex-direction: column;      /* Stack image and title vertically */
+    align-items: center;         /* Center items */
+    margin-bottom: 10px;        /* Space between items */
+    opacity: 1;                  /* Set to 1 for visibility */
+}
+
+.video-item img {
+    width: 100%;                 /* Full width for thumbnails */
+    height: auto;                /* Maintain aspect ratio */
+    border-radius: 8px;         /* Optional: Rounded corners */
+}
